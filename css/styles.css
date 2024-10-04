@@ -1,0 +1,140 @@
+/* css/styles.css */
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1d1d1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar custom styling */
+.navbar {
+    background-color: #4e4e4e;
+    color: #ffffff;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.navbar .navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.navbar .nav-link {
+    color: #ffffff;
+}
+.navbar .nav-link:hover {
+    color: #e0e0e0;
+}
+.navbar .ml-3 {
+    margin-left: auto;
+}
+
+/* Home Page styling */
+.home-container {
+    text-align: center;
+    padding: 0;
+}
+.home-container img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+/* Jumbotron styling for home page */
+.jumbotron {
+    background-color: #c1c1c1;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Card styling for courses page */
+.card {
+    background-color: #e9e9e9;
+    border: 1px solid #b0b0b0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+    text-align: center;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Custom button styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Form styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+input[type="text"], input[type="email"], textarea {
+    background-color: #e9e9e9;
+    border: 1px solid #b0b0b0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Login Form styling */
+#loginForm {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#loginForm input {
+    margin-bottom: 15px;
+}
+
+/* Custom styling for buttons in forms */
+.btn-submit {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.btn-submit:hover {
+    background-color: #cc0000;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 1rem;
+    }
+    .card {
+        margin-bottom: 1rem;
+    }
+    input[type="text"], input[type="email"], textarea {
+        padding: 8px;
+    }
+}
+
+/* Footer styling */
+footer {
+    background-color: #4e4e4e;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
